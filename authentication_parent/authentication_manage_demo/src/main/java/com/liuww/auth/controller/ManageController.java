@@ -18,7 +18,7 @@ public class ManageController implements ManageServiceApi {
     @Override
     @RequestMapping("/findManagNameByUser")
     public String findManagNameByUser() {
-
-        return "SUCCESS";
+		Map<String,Object> hashMap = new HashMap<String,Object>();	
+		return "SUCCESS";
     }
 }
